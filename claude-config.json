@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "xrp-testnet": {
+      "command": "node",
+      "args": ["dist/index.js"],
+      "cwd": "/Users/m3/Documents/GitHub/MCP/01-BLOCKCHAIN-MCP-ECOSYSTEM/servers/testnet/xrp-testnet-mcp-server",
+      "env": {
+        "XRP_NETWORK": "testnet",
+        "TRANSACTION_MODE": "prepare_only"
+      }
+    }
+  }
+}
